@@ -1,0 +1,12 @@
+<h1 class="text-xs-center" style="font-size: 2.5rem">Portafolio</h1>
+
+<div class="container row carro">
+    <div class="card icons col-xs-10 offset-xs-1 col-sm-4 offset-sm-1 col-md-3 offset-md-1"
+         ng-repeat="area in areas">
+        <img class="card-img-top" ng-src="{{ area.img }}" alt="Card image cap">
+        <div class="card-block">
+            <h5 class="card-title text-xs-center height-card">{{ area.title }}</h5>
+            <button ng-click="toArea(area)" class="btn btn-primary btn-block">Ver más</button>
+        </div>
+    </div>
+</div>

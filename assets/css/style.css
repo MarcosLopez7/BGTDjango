@@ -1,0 +1,166 @@
+html {
+    background-color: #000;
+}
+
+/******************************************************
+FIXEO NAV BAR
+******************************************************/
+
+
+/******************************************************
+AJUSTE DE LA IMÁGEN DEL NAV BAR
+******************************************************/
+
+div.crop-img {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 320px;
+    height: 120px;
+}
+
+div.crop-img img {
+    margin-top: -45px;
+    margin-left: -5px;
+}
+
+#fixiado {
+    display: none;
+}
+
+/******************************************************
+SECCIÓN DE QUINES SOMOS
+******************************************************/
+
+.w {
+    margin: 0 2.5%;
+    margin-top: 15px;
+}
+
+.w p {
+    font-size: 1.5rem;
+}
+
+.iot {
+    width: 100%;
+}
+
+/******************************************************
+SECCIÓN DEL PORTAFOLIO DEL INDEX
+******************************************************/
+
+.icons {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 2rem;
+}
+
+.icons {
+    margin-top: 40px;
+}
+
+
+.active {
+    display: inline-block;
+    margin: 0 1.5%;
+}
+
+#acomoda {
+    margin-right: 0;
+}
+
+.fluido {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact {
+    background-color: #373a3c;
+    color: #fff;
+}
+
+skill .row {
+    background-color: #373a3c;
+    color: #fff;
+}
+
+skill button {
+    bottom: 0;
+    color: #000;
+    margin: 0 auto;
+}
+
+/*PARA QUITAR EL MAR MARGEN DE LAS IMÁGENES A 100% WIDTH*/
+.carro {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+/*FIJAR EL HEIGHT DE LAS AREAS PARA QUE NO SE DESACOMODE LAS FILAS*/
+
+.height-card {
+
+    height: 66px;
+
+}
+
+/* AQUI PONEMOS AL ROW DE BOOSTRAP QUE NO NOS JODA CON EL MARGIN Y NO NOS ANDE JODIENDO LA RESPONSIVIDAD */
+.row {
+    margin-right: 0;
+}
+
+.row img {
+    padding: 0;
+}
+
+/* TAMAÑO TEXTO DE NUESTRA PRESENTACIÓN */
+.text-present {
+    font-size: 1.5rem;
+    padding: 0 15px;
+}
+
+/* COLOR DE FONDO DE LOS TEXTOS DE NUESTRA PRESENTACIÓN*/
+.presnt-cont {
+    color: #0087d1;
+}
+
+
+@media screen and (min-width: 1200px) {
+    porta .card img {
+        height: 279px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #overIoT {
+        position: relative;
+        margin-top: -15px;
+    }
+
+    .overIoT {
+        background-color: rgba(0, 0, 0, .45);
+        position: absolute;
+        z-index: 10;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .overIoT p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+}
