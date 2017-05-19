@@ -1,10 +1,23 @@
 <div class="row p-t-3 p-b-3" style="margin-right: 0">
-    <img class="col-md-4 col-lg-4 col-xl-4 col-xs-12 offset-md-1 offset-lg-1 offset-xl-1" ng-src="{{ area.img }}" alt="Card image cap">
+
+    <div id="carousel-example-generic{$ area.id $}" class="carousel slide col-md-4 col-lg-4 col-xl-4 col-xs-12 offset-md-1
+         offset-lg-1 offset-xl-1" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img ng-src="{$ area.img $}">
+            </div>
+            <div class="carousel-item" ng-repeat="a in area.area">
+                <img ng-src="{$ a $}" style="height: 391px;">
+            </div>
+        </div>
+    </div>
+
     <div class="col-md-6 col-lg-6 col-xl-6 offset-md-1 offset-lg-1 offset-xl-1 col-xs-12">
-        <h1 class="text-xs-center">{{ area.title }}</h1>
+        <h1 class="text-xs-center">{$ area.title $}</h1>
+
         <ul class="m-t-1">
             <li ng-repeat="l in area.list" class="m-t-2">
-                <h4>{{ l }}</h4>
+                <h4>{$ l $}</h4>
             </li>
         </ul>
 

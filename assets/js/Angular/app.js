@@ -3,13 +3,12 @@
  */
 (function () {
     'use strict';
-    angular.module('starterApp', []);
-        /*.config(function ($stateProvider, $urlRouterProvider) {
-            $stateProvider.state('porta', {
-                'controller': 'portaController',
-                'directive': 'porta'
-            });
+    angular.module('starterApp', [])
+        .config(function ($interpolateProvider, $httpProvider) {
+            $interpolateProvider.startSymbol('{$');
+            $interpolateProvider.endSymbol('$}');
 
-            $urlRouterProvider.otherwise('/');
-        })*/
+            $httpProvider.defaults.xsrfCookieName = 'csrftoken';
+            $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
+        });
 }());

@@ -9,6 +9,7 @@
                 data: function () {
                     var areas = [
                         {
+                            'id': 1,
                             'title': 'Redes de Comunicación',
                             'img': '/static/img/icons/redes.png',
                             'list': [
@@ -25,6 +26,7 @@
                             ]
                         },
                         {
+                            'id': 2,
                             'title': 'Desarrollo Web',
                             'img': '/static/img/icons/web.png',
                             'list': [
@@ -40,6 +42,7 @@
                             ]
                         },
                         {
+                            'id': 3,
                             'title': 'Desarrollo Móvil',
                             'img': '/static/img/icons/mobile.png',
                             'list': [
@@ -54,6 +57,7 @@
                             ]
                         },
                         {
+                            'id': 4,
                             'title': 'Ingeniería de Software',
                             'img': '/static/img/icons/enge.png',
                             'list': [
@@ -69,6 +73,7 @@
                             ]
                         },
                         {
+                            'id': 5,
                             'title': 'Dirección y Gestión de Proyectos',
                             'img': '/static/img/icons/pm.png',
                             'list': [
@@ -84,6 +89,7 @@
                             ]
                         },
                         {
+                            'id': 6,
                             'title': 'Drones y Gadgets',
                             'img': '/static/img/icons/dron.png',
                             'list': [
@@ -100,6 +106,7 @@
                             ]
                         },
                         {
+                            'id': 7,
                             'title': 'Robótica',
                             'img': '/static/img/icons/robot.png',
                             'list': [
@@ -115,6 +122,7 @@
                             ]
                         },
                         {
+                            'id': 8,
                             'title': 'Manufactura y Prototipado',
                             'img': '/static/img/icons/3d.png',
                             'list': [
@@ -131,6 +139,7 @@
                             ]
                         },
                         {
+                            'id': 9,
                             'title': 'Automatización y Control',
                             'img': '/static/img/icons/control.png',
                             'list': [
@@ -145,6 +154,7 @@
                             ]
                         },
                         {
+                            'id': 10,
                             'title': 'Energía y Sustentabilidad',
                             'img': '/static/img/icons/energy.png',
                             'list': [
@@ -159,6 +169,7 @@
                             ]
                         },
                         {
+                            'id': 11,
                             'title': 'Domótica',
                             'img': '/static/img/icons/home.png',
                             'list': [
@@ -175,6 +186,7 @@
                             ]
                         },
                         {
+                            'id': 12,
                             'title': 'Desarrollo de Proyectos',
                             'img': '/static/img/icons/inge.png',
                             'list': [
