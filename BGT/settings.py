@@ -25,7 +25,7 @@ SECRET_KEY = 'z9d3!#*rwvhcd2xysys5=e8kk+5x01b3qdl$bnk09x*1ws=3pe'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.bytesandgears.com']
+ALLOWED_HOSTS = ['www.bytesandgears.com', 'localhost']
 
 
 # Application definition

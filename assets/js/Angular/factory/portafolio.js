@@ -16,6 +16,12 @@
                                 'Configuración de redes WAN',
                                 'Configuración de redes LAN',
                                 'Seguridad en redes'
+                            ],
+                            'area': [
+                                '/static/img/area/redes/ConexionLAN.jpg',
+                                '/static/img/area/redes/ConexionWAN.jpg',
+                                '/static/img/area/redes/opc.jpeg',
+                                '/static/img/area/redes/Security.gif'
                             ]
                         },
                         {
@@ -26,6 +32,11 @@
                                 'Landing Page',
                                 'Ecommerce',
                                 'Blogs'
+                            ],
+                            'area': [
+                                '/static/img/area/web/Code.jpg',
+                                '/static/img/area/web/Database.jpg',
+                                '/static/img/area/web/ecommerce.png'
                             ]
                         },
                         {
@@ -35,6 +46,11 @@
                                 'Android',
                                 'iOS',
                                 'Aplicaciones Híbridas'
+                            ],
+                            'area': [
+                                '/static/img/area/movil/Android.jpg',
+                                '/static/img/area/movil/Ionic_Logo.png',
+                                '/static/img/area/movil/IOS.jpg'
                             ]
                         },
                         {
@@ -45,6 +61,11 @@
                                 'Calidad y Pruebas de Software',
                                 'Ciclo de vida del software',
                                 'Mantenimiento del Software'
+                            ],
+                            'area': [
+                                '/static/img/area/soft/Code.jpg',
+                                '/static/img/area/soft/Productivity.jpg',
+                                '/static/img/area/soft/cycle.jpg'
                             ]
                         },
                         {
@@ -55,6 +76,11 @@
                                 'Organización',
                                 'Seguimiento',
                                 'Control'
+                            ],
+                            'area': [
+                                '/static/img/area/pm/Graph.jpg',
+                                '/static/img/area/pm/Postit.jpg',
+                                '/static/img/area/pm/project.jpg'
                             ]
                         },
                         {
@@ -65,6 +91,12 @@
                                 'Fumigación',
                                 'Mapeo',
                                 'Diseño y Construcción de Drones'
+                            ],
+                            'area': [
+                                '/static/img/area/drones/detec.jpg',
+                                '/static/img/area/drones/DIY.jpg',
+                                '/static/img/area/drones/DronGas.png',
+                                '/static/img/area/drones/Imagenes.jpg'
                             ]
                         },
                         {
@@ -75,6 +107,11 @@
                                 'Construcción de radio control',
                                 'Desarrollo de soluciones con robots',
                                 'Construcción de máquinas'
+                            ],
+                            'area': [
+                                '/static/img/area/robot/Brazo.jpg',
+                                '/static/img/area/robot/Detector.jpg',
+                                '/static/img/area/robot/Seguidor.jpg'
                             ]
                         },
                         {
@@ -86,6 +123,11 @@
                                 'Diseño Asistido por Computadora (CAD)',
                                 'Ingeniería Asistida por Computadora (CAE)',
                                 'Manufactura Asistida por Computadora (CAM)'
+                            ],
+                            'area': [
+                                '/static/img/area/manu/CAE.jpg',
+                                '/static/img/area/robot/Impresion.jpg',
+                                '/static/img/area/robot/Solid.png'
                             ]
                         },
                         {
@@ -95,6 +137,11 @@
                                 'Automatización con PLC',
                                 'Automatización con FPGA',
                                 'Soluciones con Internet de las Cosas (IoT)'
+                            ],
+                            'area': [
+                                '/static/img/area/auto/AutoTech.jpg',
+                                '/static/img/area/auto/Labview.png',
+                                '/static/img/area/auto/PLC.jpg'
                             ]
                         },
                         {
@@ -104,6 +151,11 @@
                                 'Soluciones de Generación',
                                 'Soluciones de Ahorro',
                                 'Desarrollo Sustentable'
+                            ],
+                            'area': [
+                                '/static/img/area/energia/panel.jpg',
+                                '/static/img/area/energia/SolarWH.jpg',
+                                '/static/img/area/energia/Turbine.jpg'
                             ]
                         },
                         {
@@ -115,6 +167,11 @@
                                 'Soluciones de Automatización en el Hogar',
                                 'Aplicaciones Móviles de Control para el Hogar',
                                 'Energía Sustentable'
+                            ],
+                            'area': [
+                                '/static/img/area/domotica/AutoHouse.png',
+                                '/static/img/area/domotica/Casa.jpg',
+                                '/static/img/area/domotica/homelynx.jpg'
                             ]
                         },
                         {
@@ -125,6 +182,11 @@
                                 'Soluciones Personalizadas',
                                 'Sistemas de Entretenimiento',
                                 'Venta de Ideas (Plan de Negocios)'
+                            ],
+                            'area': [
+                                '/static/img/area/project/AR.jpg',
+                                '/static/img/area/project/iotd.jpg',
+                                '/static/img/area/project/iots.jpg'
                             ]
                         }
                     ];
