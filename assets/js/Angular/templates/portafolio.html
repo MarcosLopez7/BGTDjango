@@ -1,8 +1,8 @@
-<h1 class="text-xs-center" style="font-size: 2.5rem">Portafolio</h1>
+<h1 class="text-xs-center" id="#porta" style="font-size: 2.5rem">Portafolio</h1>
 
-<div class="container row carro">
+<div class="container row carro" id="portaContent">
     <div class="card icons col-xs-10 offset-xs-1 col-sm-4 offset-sm-1 col-md-3 offset-md-1"
-         ng-repeat="area in areas">
+         ng-repeat="area in areas" style="display: none">
         <img class="card-img-top" ng-src="{$ area.img $}" alt="Card image cap">
         <div class="card-block">
             <h5 class="card-title text-xs-center height-card">{$ area.title $}</h5>

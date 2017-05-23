@@ -87,6 +87,10 @@ SECCIÓN DEL PORTAFOLIO DEL INDEX
     color: #fff;
 }
 
+#portaContent {
+    margin: 0 12% 0 5%;
+}
+
 skill .row {
     background-color: #373a3c;
     color: #fff;
@@ -137,6 +141,12 @@ skill button {
 @media screen and (min-width: 1200px) {
     porta .card img {
         height: 279px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #portaContent {
+        margin: 0 auto;
     }
 }
 

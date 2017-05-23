@@ -16,6 +16,9 @@
 
             $scope.backToPorta = function () {
                 $scope.watching = false;
+                var $slider = $('#carousel-example-generic' + $scope.area.id);
+                $slider.find('.carousel-item').first().addClass('active');
+                $('#carousel-example-generic' + $scope.area.id + ' .ng-scope').remove();
             }
         });
 })();

@@ -20,9 +20,9 @@
                             ],
                             'area': [
                                 '/static/img/area/redes/ConexionLAN.jpg',
-                                '/static/img/area/redes/ConexionWAN.jpg',
-                                '/static/img/area/redes/opc.jpeg',
-                                '/static/img/area/redes/Security.gif'
+                                '/static/img/area/redes/ConexionWAN.jpg'
+                                //'/static/img/area/redes/opc.jpeg',
+                                //'/static/img/area/redes/Security.gif'
                             ]
                         },
                         {
@@ -37,7 +37,7 @@
                             ],
                             'area': [
                                 '/static/img/area/web/Code.jpg',
-                                '/static/img/area/web/Database.jpg',
+                                //'/static/img/area/web/Database.jpg',
                                 '/static/img/area/web/ecommerce.png'
                             ]
                         },
@@ -52,7 +52,7 @@
                             ],
                             'area': [
                                 '/static/img/area/movil/Android.jpg',
-                                '/static/img/area/movil/Ionic_Logo.png',
+                                //'/static/img/area/movil/Ionic_Logo.png',
                                 '/static/img/area/movil/IOS.jpg'
                             ]
                         },
@@ -117,7 +117,7 @@
                             ],
                             'area': [
                                 '/static/img/area/robot/Brazo.jpg',
-                                '/static/img/area/robot/Detector.jpg',
+                                '/static/img/area/robot/dete.JPG',
                                 '/static/img/area/robot/Seguidor.jpg'
                             ]
                         },
@@ -134,8 +134,8 @@
                             ],
                             'area': [
                                 '/static/img/area/manu/CAE.jpg',
-                                '/static/img/area/robot/Impresion.jpg',
-                                '/static/img/area/robot/Solid.png'
+                                '/static/img/area/robot/imp.jpg',
+                                '/static/img/area/robot/solid.png'
                             ]
                         },
                         {
