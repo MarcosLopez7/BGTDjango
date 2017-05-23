@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20ab95b-2a8e-48a8-858b-869a6744839a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/area/manu/Impresion.jpg" afterPath="$PROJECT_DIR$/assets/img/area/manu/imp.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/area/manu/Solid.png" afterPath="$PROJECT_DIR$/assets/img/area/manu/solid.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/area/robot/Detector.JPG" afterPath="$PROJECT_DIR$/assets/img/area/robot/dete.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BGTDjango.iml" afterPath="$PROJECT_DIR$/.idea/BGTDjango.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BGT/settings.py" afterPath="$PROJECT_DIR$/BGT/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Angular/controllers/portafolio.js" afterPath="$PROJECT_DIR$/assets/js/Angular/controllers/portafolio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Angular/factory/portafolio.js" afterPath="$PROJECT_DIR$/assets/js/Angular/factory/portafolio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Angular/templates/portafolio.html" afterPath="$PROJECT_DIR$/assets/js/Angular/templates/portafolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jQuery/app.js" afterPath="$PROJECT_DIR$/assets/js/jQuery/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Angular/templates/skill.html" afterPath="$PROJECT_DIR$/assets/js/Angular/templates/skill.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,12 +38,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skill.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="skill.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/Angular/templates/skill.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="24" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
@@ -137,12 +130,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/js/Angular/factory/portafolio.js" />
-        <option value="$PROJECT_DIR$/assets/js/Angular/templates/skill.html" />
         <option value="$PROJECT_DIR$/assets/js/Angular/controllers/portafolio.js" />
         <option value="$PROJECT_DIR$/BGT/settings.py" />
         <option value="$PROJECT_DIR$/assets/js/jQuery/app.js" />
         <option value="$PROJECT_DIR$/assets/js/Angular/templates/portafolio.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/js/Angular/templates/skill.html" />
       </list>
     </option>
   </component>
@@ -601,6 +594,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494535631378</updated>
     </task>
+    <task id="LOCAL-00001" summary="arreglando los slider, poniendo efectos y enderezamiento de las áreas del portafolio">
+      <created>1495568154142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495568154142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -633,6 +634,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arreglando los slider, poniendo efectos y enderezamiento de las áreas del portafolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando los slider, poniendo efectos y enderezamiento de las áreas del portafolio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -707,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Angular/templates/skill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Angular/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -747,6 +744,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Angular/templates/portafolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -758,11 +763,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/Angular/templates/skill.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
