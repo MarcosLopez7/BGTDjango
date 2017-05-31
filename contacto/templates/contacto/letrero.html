@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+    <h2 class="col-xs-12 text-xs-center m-t-3">{{ title }}</h2>
+    <p class="col-xs-12 text-xs-center" style="font-size: 1.5rem">{{ message|safe }}</p>
+
+    <a href="/" class="col-xs-12 text-xs-center m-t-3 p-b-3">Regresar a la página principal</a>
+
+    {% if link %}
+        <a href="{{ link }}">{{ link_direction }}</a>
+    {% endif %}
+
+{% endblock %}
