@@ -10,9 +10,10 @@
             <source src="{% static 'video/binario.mp4' %}" type="video/mp4">
             <!--<source src="video/binario.ogg" type="video/ogg">-->
         </video>
+        <!--
         <div id="overlay" class="hidden-sm-down">
             <img src="{% static 'img/bgxs.png' %}">
-        </div>
+        </div>-->
     </div>
 
     <div class="row presnt-cont">
@@ -27,7 +28,7 @@
         <img class="col-lg-6 col-xs-12" height="367" src="{% static 'img/IoT.png' %}">
     </div>
 
-    <div class="row presnt-cont">
+    <div class="row presnt-cont" id="hacemos">
         <img class="col-lg-6 col-xs-12" height="367" src="{% static 'img/proyec.jpg' %}">
         <div class="col-lg-6 p-t-3 col-xs-12">
             <h1 class="text-xs-center">¿Qué Hacemos?</h1>
@@ -106,14 +107,17 @@
         </div>
     </div>
     -->
-    <div class="row contact p-t-3 p-b-3 carro" id="contact">
-        <div class="col-xs-12 col-md-6">
+    <div ng-controller="contactController" class="row contact p-t-3 p-b-3 carro" id="contact">
+        <div class="col-xs-12 col-md-4">
             <h2 class="text-xs-center">Contacto para TI</h2>
             <p class="text-xs-center">
                 Escribenos a: marcos.lopez@bytesandgears.com
             </p>
         </div>
-        <div class="col-xs-12 col-md-6" class="contact">
+        <div class="col-xs-10 offset-xs-1 col-md-3 m-t-1">
+            <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="goContacto()">Contáctanos</button>
+        </div>
+        <div class="col-xs-12 col-md-4 m-t-1" class="contact">
             <h2 class="text-xs-center">Contacto para IMT</h2>
             <p class="text-xs-center">Escribenos a: isaac.gonzalez@bytesandgears.com</p>
         </div>
@@ -121,4 +125,5 @@
         <div class="col-xs-12 text-xs-center m-t-2">Toluca de Lerdo y Ciudad de México</div>
     </div>
 
+    <script src="{% static 'js/jQuery/index.js' %}"></script>
 {% endblock %}

@@ -6,7 +6,19 @@ html {
 FIXEO NAV BAR
 ******************************************************/
 
+.bgtNav {
+    color: #fff;
+    font-size: 1.25rem;
+}
 
+.nav-link {
+    margin-top: 6px;
+}
+
+.acomodoBGT {
+    width: 300px;
+    padding-top: 8px;
+}
 /******************************************************
 AJUSTE DE LA IMÁGEN DEL NAV BAR
 ******************************************************/
