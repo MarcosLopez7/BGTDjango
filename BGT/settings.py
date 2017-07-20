@@ -12,6 +12,12 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'marcosmbilbao@gmail.com'
+EMAIL_HOST_PASSWORD = '23735371'
+EMAIL_PORT = 587
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -23,9 +29,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'z9d3!#*rwvhcd2xysys5=e8kk+5x01b3qdl$bnk09x*1ws=3pe'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['www.bytesandgears.com', 'localhost', '192.168.88.129']
+ALLOWED_HOSTS = ['www.bytesandgears.com']
 
 
 # Application definition
@@ -37,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'contacto',
 ]
 
 MIDDLEWARE = [
@@ -73,7 +80,7 @@ WSGI_APPLICATION = 'BGT.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -93,7 +100,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 
@@ -131,7 +138,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'assets'),
-)
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
